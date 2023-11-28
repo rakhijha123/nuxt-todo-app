@@ -32,7 +32,8 @@ const addTodo = () => {
   if (newTodo.value.trim() != "") {
     todos.value.push({ text: newTodo.value, completed: false });
     newTodo.value = "";
-  }};
+  }
+};
 
 const deleteTodo = (index) => {
   todos.value.splice(index, 1);
